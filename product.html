@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawosem -->
+    <link rel="stylesheet" href="./assests/style/all.min.css">
+    <!-- our style sheet -->
+    <link rel="stylesheet" href="./assests/style/mean.css">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Product Page</title>
+</head>
+<body>
+    <section class="navgition">
+        <header>
+            <div class="contaner">
+                <div class="header-logo">
+                    <h3>Lo<span>Go</span></h3>
+                </div>
+                <div class="header-links">
+                    <ul>
+                        <li>
+                            <a href="#">home</a>
+                            <span class="bottomborder"></span>
+                        </li>
+                        <li>
+                            <a href="#">home</a>
+                            <span class="bottomborder"></span>
+                        </li>
+                        <li class="active" >
+                            <a href="#" id="active">product</a>
+                            <span class="bottomborder"></span>
+                        </li>
+                        <li>
+                            <a href="#">home</a>
+                            <span class="bottomborder"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="contaner">
+            <div class="headcontent">
+                <h2>Product Page</h2>
+            </div>
+            <div class="form">
+                <div class="error" id="error"></div>
+                <label for="name">Product Name</label><br>
+                <input type="text" name="name" id="name"><br>
+                <label for="price">Product Price</label><br>
+                <input type="text" name="price" id="price"><br>
+                <label for="cat">Product Category</label><br>
+                <input type="text" name="Category" id="cat"><br>
+                <label for="desc">Product Description</label><br>
+                <input type="text" name="Description" id="desc"><br>
+                <button id="addBtn">Add Product</button>
+
+                <input type="search" name="search" id="searchInput" placeholder="search here"><br>
+            </div>
+            <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>category</th>
+                            <th>Desc</th>
+                            <th class="us">Delete</th>
+                            <th class="us3">Update</th>
+                        </tr>
+                    </thead>
+                    <tbody id="info">
+                        
+                    </tbody>
+                </table>
+        </div>
+    </section>
+
+    <script src="./assests/script/js.js"></script>
+</body>
+</html>
